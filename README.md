@@ -24,16 +24,16 @@ A simple yet powerful Pomodoro Timer application built with Electron and Node.js
 - Clone the repository:
 
   ```bash
-
-  ```
-
   git clone <https://github.com/yourusername/pomodoro-timer-app.git>
   cd pomodoro-timer-app
+  ```
+
+````
 - Install dependencies:
 
   ```bash
   npm install
-  ```
+````
 
 - Start the application:
 
