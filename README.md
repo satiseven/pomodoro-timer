@@ -17,23 +17,18 @@ A simple yet powerful Pomodoro Timer application built with Electron and Node.js
 
   ```bash
   npm install -g electron
-  Installation
   ```
 
 ## Installation
 
 - Clone the repository:
 
-  ````bash
   ```bash
-  ````
+
+  ```
 
 git clone <https://github.com/yourusername/pomodoro-timer-app.git>
 cd pomodoro-timer-app
-
-```
-
-```
 
 - Install dependencies:
 
@@ -69,20 +64,13 @@ npm install -g electron-packager
 
 - macOS:
 
-```
-
-```
-
 ```bash
-
 electron-packager . PomodoroTimer --platform=darwin --arch=x64 --out=dist --overwrite --icon=path/to/icon.icns
-
 ```
 
 - Windows:
 
 ```bash
-
 electron-packager . PomodoroTimer --platform=win32 --arch=x64 --out=dist --overwrite --icon=path/to/icon.ico
 ```
 
@@ -90,16 +78,11 @@ electron-packager . PomodoroTimer --platform=win32 --arch=x64 --out=dist --overw
 
 - Linux:
 
-```
+```bash
 electron-packager . PomodoroTimer --platform=linux --arch=x64 --out=dist --overwrite --icon=path/to/icon.png
-
 ```
 
 > Use a .png file for the Linux icon, typically 512x512 pixels.
 
 - Locate the Executable:
   - After running the packaging commands, the dist folder will contain the standalone application for the specified platform.
-
-```
-
-```
