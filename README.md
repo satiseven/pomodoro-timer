@@ -28,12 +28,11 @@ A simple yet powerful Pomodoro Timer application built with Electron and Node.js
   cd pomodoro-timer-app
   ```
 
-````
-- Install dependencies:
+## Install dependencies
 
-  ```bash
-  npm install
-````
+```bash
+npm install
+```
 
 - Start the application:
 
